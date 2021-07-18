@@ -1,0 +1,95 @@
+{
+  "appName": "easy-transport",
+  "userConfig": {
+    "userName": "Prasad Muley",
+    "country": "India"
+  },
+  "headerConfig": {
+    "title": "app-name"
+  },
+  "sidebarConfig": [
+    {
+      "title": "dashboard",
+      "url": "/dashboard"
+    },
+    {
+      "title": "booking",
+      "url": "/booking"
+    },
+    {
+      "title": "profile",
+      "url": "/profile"
+    },
+    {
+      "title": "users",
+      "url": "/profile"
+    }
+  ],
+  "footerConfig": {
+    "copyright": "copyright"
+  },
+  "bookingConfig": {
+    "apiUrl": "booking.json",
+    "breadcrumbList": [
+      "Home",
+      "Booking"
+    ],
+    "gridButtons": [
+      {
+        "title": "Add Booking",
+        "action": "navigate",
+        "url": "add-edit",
+        "class": "btn-sm btn-primary",
+        "type": "add"
+      }
+    ],
+    "columns": [
+      {
+        "field": "id",
+        "title": "id"
+      },
+      {
+        "field": "name",
+        "title": "name"
+      },
+      {
+        "field": "from",
+        "title": "from"
+      },
+      {
+        "field": "date",
+        "title": "to"
+      },
+      {
+        "field": "date",
+        "title": "date"
+      },
+      {
+        "field": "vehicleNo",
+        "title": "vehicleNo"
+      },
+      {
+        "field": "action",
+        "title": "action",
+        "type": "action",
+        "buttonDetails": {
+          "btnText": "edit",
+          "btnClass": "btn-outline-primary"
+        }
+      }
+    ]
+  },
+  "i18n": [
+    {
+      "locale": "en_US",
+      "translations": {
+        "app-name": "Inventry Management",
+        "dashboard": "Dashboard",
+        "profile": "Profile",
+        "booking": "Booking",
+        "users": "My Users",
+        "copyright": "Copyright © Your Website 2021"
+      }
+    }
+  ]
+}
