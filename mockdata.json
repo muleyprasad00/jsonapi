@@ -1,3 +1,34 @@
 {
-"appName":"easy-transport"
+  "appName": "easy-transport",
+  "userConfig": {
+    "userName": "Prasad Muley"
+  },
+  "headerConfig": {
+    "title": "app-name"
+  },
+  "sidebarConfig": [
+    {
+      "title": "dashboard",
+      "url": "/dashboard"
+    },
+    {
+      "title": "booking",
+      "url": "/booking"
+    }
+  ],
+  "footerConfig": {
+    "copyright": "copyright"
+  },
+  "i18n": [
+    {
+      "locale": "en_US",
+      "translations": {
+        "app-name": "Easy Transport",
+        "dashboard": "Dashboard",
+        "profile": "Profile",
+        "booking": "Booking",
+        "copyright": "Copyright © Your Website 2021"
+      }
+    }
+  ]
 }
