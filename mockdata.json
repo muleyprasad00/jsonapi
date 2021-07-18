@@ -19,6 +19,10 @@
     {
       "title": "profile",
       "url": "/profile"
+    },
+    {
+      "title": "users",
+      "url": "/profile"
     }
   ],
   "footerConfig": {
@@ -28,10 +32,11 @@
     {
       "locale": "en_US",
       "translations": {
-        "app-name": "Dynamic App",
+        "app-name": "Inventry Management",
         "dashboard": "Dashboard",
         "profile": "Profile",
         "booking": "Booking",
+        "users":"My Users",
         "copyright": "Copyright © Your Website 2021"
       }
     }
