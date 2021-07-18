@@ -28,7 +28,7 @@
     {
       "locale": "en_US",
       "translations": {
-        "app-name": "My First APP",
+        "app-name": "Dynamic App",
         "dashboard": "Dashboard",
         "profile": "Profile",
         "booking": "Booking",
