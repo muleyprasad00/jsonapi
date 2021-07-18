@@ -11,17 +11,17 @@
     {
       "title": "dashboard",
       "url": "/dashboard",
-      "icon":"fas fa-tachometer-alt"
+      "icon": "fas fa-tachometer-alt"
     },
     {
       "title": "booking",
       "url": "/booking",
-      "icon":"fas fa-columns"
+      "icon": "fas fa-columns"
     },
     {
-      "title": "profile",
-      "url": "/profile",
-      "icon":"fas fa-user"
+      "title": "users",
+      "url": "/page/users",
+      "icon": "fas fa-user"
     }
   ],
   "footerConfig": {
@@ -29,7 +29,7 @@
   },
   "bookingConfig": {
     "apiUrl": "booking.json",
-    "title":"booking-grid-title",
+    "title": "booking-grid-title",
     "breadcrumbList": [
       "Home",
       "Booking"
@@ -79,6 +79,35 @@
       }
     ]
   },
+  "users": [
+    {
+      "elementType": "breadcrumb",
+      "breadcrumbList": [
+        "Home",
+        "Users"
+      ]
+    },
+    {
+      "elementType": "grid",
+      "apiUrl": "users.json",
+      "height": "60vh",
+      "title": "user-grid-title",
+      "columns": [
+        {
+          "field": "id",
+          "title": "id"
+        },
+        {
+          "field": "name",
+          "title": "name"
+        },
+        {
+          "field": "mobileNo",
+          "title": "mobileNo"
+        }
+      ]
+    }
+  ],
   "i18n": [
     {
       "locale": "en_US",
@@ -89,7 +118,9 @@
         "booking": "Booking",
         "users": "My Users",
         "copyright": "Copyright © Your Website 2021",
-        "booking-grid-title":"Booking Details"
+        "booking-grid-title": "Booking Details",
+        "user-grid-title": "Users Details",
+        "user": "Users"
       }
     }
   ]
