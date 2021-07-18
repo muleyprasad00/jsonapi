@@ -1,7 +1,8 @@
 {
   "appName": "easy-transport",
   "userConfig": {
-    "userName": "Prasad Muley"
+    "userName": "Prasad Muley",
+    "country":"India"
   },
   "headerConfig": {
     "title": "app-name"
@@ -17,7 +18,7 @@
     },
     {
       "title": "profile",
-      "url": "/"
+      "url": "/profile"
     }
   ],
   "footerConfig": {
