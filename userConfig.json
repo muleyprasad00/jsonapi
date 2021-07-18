@@ -30,6 +30,7 @@
   },
   "bookingConfig": {
     "apiUrl": "booking.json",
+    "title":"booking-grid-title",
     "breadcrumbList": [
       "Home",
       "Booking"
@@ -88,7 +89,8 @@
         "profile": "Profile",
         "booking": "Booking",
         "users": "My Users",
-        "copyright": "Copyright © Your Website 2021"
+        "copyright": "Copyright © Your Website 2021",
+        "booking-grid-title":"Booking Details"
       }
     }
   ]
