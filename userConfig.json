@@ -19,6 +19,11 @@
       "icon": "fas fa-columns"
     },
     {
+      "title": "booking",
+      "url": "/page/bookings",
+      "icon": "fas fa-columns"
+    },
+    {
       "title": "users",
       "url": "/page/users",
       "icon": "fas fa-user"
@@ -106,6 +111,56 @@
           "title": "mobileNo"
         }
       ]
+    }
+  ],
+  "bookings": [
+    {
+      "elementType": "breadcrumb",
+      "breadcrumbList": [
+        "Home",
+        "Booking"
+      ]
+    },
+    {
+      "elementType": "grid",
+      "apiUrl": "booking.json",
+      "height": "60vh",
+      "title": "booking-grid-title",
+      "columns": [
+      {
+        "field": "id",
+        "title": "id"
+      },
+      {
+        "field": "name",
+        "title": "name"
+      },
+      {
+        "field": "from",
+        "title": "from"
+      },
+      {
+        "field": "date",
+        "title": "to"
+      },
+      {
+        "field": "date",
+        "title": "date"
+      },
+      {
+        "field": "vehicleNo",
+        "title": "vehicleNo"
+      },
+      {
+        "field": "action",
+        "title": "action",
+        "type": "action",
+        "buttonDetails": {
+          "btnText": "edit",
+          "btnClass": "btn-outline-primary"
+        }
+      }
+    ]
     }
   ],
   "i18n": [
