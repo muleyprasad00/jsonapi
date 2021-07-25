@@ -1,5 +1,5 @@
 {
-  "bookings": [
+  "users": [
     {
       "element_type": "textBox",
       "label": "Name",
@@ -85,6 +85,56 @@
         "Hocky",
         "Chess"
       ],
+      "required": true
+    },
+    {
+      "element_type": "checkbox",
+      "label": "Terms & Condition",
+      "name": "terms",
+      "class": "col-lg-4 d-flex align-items-center mt-3",
+      "type": "checkbox",
+      "requiredTrue": true
+    }
+  ],
+  "bookings": [
+    {
+      "element_type": "textBox",
+      "label": "Customer Name",
+      "name": "CName",
+      "class": "col-lg-4",
+      "placeholder": "Customer Name",
+      "type": "text",
+      "minLength": 5,
+      "maxLength": 20,
+      "required": true
+    },
+    {
+      "element_type": "textBox",
+      "label": "Form",
+      "name": "form",
+      "class": "col-lg-4",
+      "placeholder": "Form",
+      "type": "text",
+      "minLength": 5,
+      "maxLength": 20,
+      "required": true
+    },
+    {
+      "element_type": "textBox",
+      "label": "To",
+      "name": "to",
+      "class": "col-lg-4",
+      "placeholder": "To",
+      "type": "text",
+      "required": true
+    },
+    {
+      "element_type": "textBox",
+      "label": "Vehicle No",
+      "name": "vehicleNo",
+      "class": "col-lg-4",
+      "placeholder": "Vehicle No",
+      "type": "number",
       "required": true
     },
     {
