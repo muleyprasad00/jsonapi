@@ -65,7 +65,7 @@
       ],
       "gridButtons": [
         {
-          "title": "Add Booking",
+          "title": "Add User",
           "action": "navigate",
           "url": "add-edit",
           "class": "btn-sm btn-primary",
