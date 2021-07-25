@@ -1,5 +1,5 @@
 {
-  "booking": [
+  "bookings": [
     {
       "element_type": "textBox",
       "label": "Name",
