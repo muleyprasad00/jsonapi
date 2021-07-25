@@ -10,7 +10,7 @@
   "sidebarConfig": [
     {
       "title": "dashboard",
-      "url": "/dashboard",
+      "url": "/page/dashboard",
       "icon": "fas fa-tachometer-alt"
     },
     {
@@ -27,6 +27,15 @@
   "footerConfig": {
     "copyright": "copyright"
   },
+  "dashboard": [
+    {
+      "elementType": "breadcrumb",
+      "breadcrumbList": [
+        "Home",
+        "Dashboard"
+      ]
+    }
+  ],
   "users": [
     {
       "elementType": "breadcrumb",
