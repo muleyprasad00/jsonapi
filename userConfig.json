@@ -62,6 +62,15 @@
           "field": "mobileNo",
           "title": "mobileNo"
         }
+      ],
+      "gridButtons": [
+        {
+          "title": "Add Booking",
+          "action": "navigate",
+          "url": "add-edit",
+          "class": "btn-sm btn-primary",
+          "type": "add"
+        }
       ]
     }
   ],
@@ -79,49 +88,49 @@
       "height": "60vh",
       "title": "booking-grid-title",
       "columns": [
-      {
-        "field": "id",
-        "title": "id"
-      },
-      {
-        "field": "name",
-        "title": "name"
-      },
-      {
-        "field": "from",
-        "title": "from"
-      },
-      {
-        "field": "date",
-        "title": "to"
-      },
-      {
-        "field": "date",
-        "title": "date"
-      },
-      {
-        "field": "vehicleNo",
-        "title": "vehicleNo"
-      },
-      {
-        "field": "action",
-        "title": "action",
-        "type": "action",
-        "buttonDetails": {
-          "btnText": "edit",
-          "btnClass": "btn-outline-primary"
+        {
+          "field": "id",
+          "title": "id"
+        },
+        {
+          "field": "name",
+          "title": "name"
+        },
+        {
+          "field": "from",
+          "title": "from"
+        },
+        {
+          "field": "date",
+          "title": "to"
+        },
+        {
+          "field": "date",
+          "title": "date"
+        },
+        {
+          "field": "vehicleNo",
+          "title": "vehicleNo"
+        },
+        {
+          "field": "action",
+          "title": "action",
+          "type": "action",
+          "buttonDetails": {
+            "btnText": "edit",
+            "btnClass": "btn-outline-primary"
+          }
         }
-      }
-    ],
-    "gridButtons": [
-      {
-        "title": "Add Booking",
-        "action": "navigate",
-        "url": "add-edit",
-        "class": "btn-sm btn-primary",
-        "type": "add"
-      }
-    ]
+      ],
+      "gridButtons": [
+        {
+          "title": "Add Booking",
+          "action": "navigate",
+          "url": "add-edit",
+          "class": "btn-sm btn-primary",
+          "type": "add"
+        }
+      ]
     }
   ],
   "i18n": [
