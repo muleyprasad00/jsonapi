@@ -15,11 +15,6 @@
     },
     {
       "title": "booking",
-      "url": "/booking",
-      "icon": "fas fa-columns"
-    },
-    {
-      "title": "booking",
       "url": "/page/bookings",
       "icon": "fas fa-columns"
     },
@@ -31,58 +26,6 @@
   ],
   "footerConfig": {
     "copyright": "copyright"
-  },
-  "bookingConfig": {
-    "apiUrl": "booking.json",
-    "title": "booking-grid-title",
-    "breadcrumbList": [
-      "Home",
-      "Booking"
-    ],
-    "gridButtons": [
-      {
-        "title": "Add Booking",
-        "action": "navigate",
-        "url": "add-edit",
-        "class": "btn-sm btn-primary",
-        "type": "add"
-      }
-    ],
-    "columns": [
-      {
-        "field": "id",
-        "title": "id"
-      },
-      {
-        "field": "name",
-        "title": "name"
-      },
-      {
-        "field": "from",
-        "title": "from"
-      },
-      {
-        "field": "date",
-        "title": "to"
-      },
-      {
-        "field": "date",
-        "title": "date"
-      },
-      {
-        "field": "vehicleNo",
-        "title": "vehicleNo"
-      },
-      {
-        "field": "action",
-        "title": "action",
-        "type": "action",
-        "buttonDetails": {
-          "btnText": "edit",
-          "btnClass": "btn-outline-primary"
-        }
-      }
-    ]
   },
   "users": [
     {
