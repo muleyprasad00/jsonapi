@@ -14,8 +14,8 @@
       "icon": "fas fa-tachometer-alt"
     },
     {
-      "title": "booking",
-      "url": "/page/bookings",
+      "title": "Products",
+      "url": "/page/products",
       "icon": "fas fa-columns"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "elementType": "grid",
-      "apiUrl": "users.json",
+      "apiUrl": "/api/users",
       "height": "60vh",
       "title": "user-grid-title",
       "columns": [
@@ -55,7 +55,7 @@
           "title": "id"
         },
         {
-          "field": "name",
+          "field": "email",
           "title": "name"
         },
         {
@@ -74,43 +74,35 @@
       ]
     }
   ],
-  "bookings": [
+  "products": [
     {
       "elementType": "breadcrumb",
       "breadcrumbList": [
         "Home",
-        "Booking"
+        "Products"
       ]
     },
     {
       "elementType": "grid",
-      "apiUrl": "booking.json",
+      "apiUrl": "/api/products",
       "height": "60vh",
-      "title": "booking-grid-title",
+      "title": "products-grid-title",
       "columns": [
         {
           "field": "id",
           "title": "id"
         },
         {
-          "field": "name",
-          "title": "name"
+          "field": "title",
+          "title": "title"
         },
         {
-          "field": "from",
-          "title": "from"
+          "field": "price",
+          "title": "price"
         },
         {
-          "field": "date",
-          "title": "to"
-        },
-        {
-          "field": "date",
-          "title": "date"
-        },
-        {
-          "field": "vehicleNo",
-          "title": "vehicleNo"
+          "field": "category",
+          "title": "category"
         },
         {
           "field": "action",
@@ -140,10 +132,10 @@
         "app-name": "Inventry Management",
         "dashboard": "Dashboard",
         "profile": "Profile",
-        "booking": "Booking",
+        "products": "Products",
         "users": "My Users",
         "copyright": "Copyright © Your Website 2021",
-        "booking-grid-title": "Booking Details",
+        "products-grid-title": "Products Details",
         "user-grid-title": "Users Details",
         "user": "Users"
       }
