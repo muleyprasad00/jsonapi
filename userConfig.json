@@ -14,7 +14,7 @@
       "icon": "fas fa-tachometer-alt"
     },
     {
-      "title": "Products",
+      "title": "products",
       "url": "/page/products",
       "icon": "fas fa-columns"
     },
@@ -49,6 +49,8 @@
       "apiUrl": "/api/users",
       "height": "60vh",
       "title": "user-grid-title",
+      "sizeColumnsToFit":false,
+      "autoSizeCol":false,
       "columns": [
         {
           "field": "id",
@@ -59,8 +61,8 @@
           "title": "name"
         },
         {
-          "field": "mobileNo",
-          "title": "mobileNo"
+          "field": "phone",
+          "title": "phone"
         }
       ],
       "gridButtons": [
