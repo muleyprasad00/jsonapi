@@ -96,6 +96,30 @@
       "requiredTrue": true
     }
   ],
+  "products": [
+    {
+      "element_type": "textBox",
+      "label": "Title",
+      "name": "name",
+      "class": "col-lg-4",
+      "placeholder": "Title",
+      "type": "text",
+      "minLength": 5,
+      "maxLength": 20,
+      "required": true
+    },
+    {
+      "element_type": "textBox",
+      "label": "Price",
+      "name": "price",
+      "class": "col-lg-4",
+      "placeholder": "Price",
+      "type": "text",
+      "minLength": 5,
+      "maxLength": 20,
+      "required": true
+    }
+  ],
   "bookings": [
     {
       "element_type": "textBox",
@@ -145,62 +169,5 @@
       "type": "checkbox",
       "requiredTrue": true
     }
-  ],
-  "products":[
-    {
-      "element_type": "textBox",
-      "label": "Title",
-      "name": "title",
-      "class": "col-lg-4",
-      "placeholder": "Title",
-      "type": "text",
-      "minLength": 5,
-      "maxLength": 20,
-      "required": true
-    },
-    {
-      "element_type": "textBox",
-      "label": "Price",
-      "name": "price",
-      "class": "col-lg-4",
-      "placeholder": "Price",
-      "type": "text",
-      "minLength": 5,
-      "maxLength": 20,
-      "required": true
-    },
-    {
-      "element_type": "textBox",
-      "label": "description",
-      "name": "description",
-      "class": "col-lg-4",
-      "placeholder": "description",
-      "type": "text",
-      "minLength": 5,
-      "maxLength": 20,
-      "required": true
-    },
-    {
-      "element_type": "textBox",
-      "label": "image path",
-      "name": "image",
-      "class": "col-lg-4",
-      "placeholder": "imagePath",
-      "type": "text",
-      "minLength": 5,
-      "maxLength": 20,
-      "required": true
-    },
-    {
-      "element_type": "textBox",
-      "label": "category",
-      "name": "category",
-      "class": "col-lg-4",
-      "placeholder": "category",
-      "type": "text",
-      "minLength": 5,
-      "maxLength": 20,
-      "required": true
-    }
-    ]
+  ]
 }
