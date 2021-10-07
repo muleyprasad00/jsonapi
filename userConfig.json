@@ -108,7 +108,9 @@
           "type": "action",
           "buttonDetails": {
             "btnText": "edit",
-            "btnClass": "btn-outline-primary"
+            "btnClass": "btn-outline-primary",
+            "action": "navigate",
+            "url": "add-edit"
           }
         }
       ],
