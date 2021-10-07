@@ -49,8 +49,8 @@
       "apiUrl": "/api/users",
       "height": "60vh",
       "title": "user-grid-title",
-      "sizeColumnsToFit":false,
-      "autoSizeCol":false,
+      "sizeColumnsToFit": false,
+      "autoSizeCol": false,
       "columns": [
         {
           "field": "id",
@@ -95,16 +95,12 @@
           "title": "id"
         },
         {
-          "field": "title",
-          "title": "title"
+          "field": "name",
+          "title": "name"
         },
         {
           "field": "price",
           "title": "price"
-        },
-        {
-          "field": "category",
-          "title": "category"
         },
         {
           "field": "action",
