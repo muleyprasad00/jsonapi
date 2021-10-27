@@ -14,11 +14,6 @@
       "icon": "fas fa-tachometer-alt"
     },
     {
-      "title": "products",
-      "url": "/page/products",
-      "icon": "fas fa-columns"
-    },
-    {
       "title": "users",
       "url": "/page/users",
       "icon": "fas fa-user"
