@@ -57,12 +57,32 @@
           "title": "id"
         },
         {
-          "field": "email",
-          "title": "name"
+          "field": "lastName",
+          "title": "lastName"
         },
         {
-          "field": "phone",
-          "title": "phone"
+          "field": "firstName",
+          "title": "firstName"
+        },
+        {
+          "field": "address",
+          "title": "address"
+        },
+        {
+          "field": "city",
+          "title": "city"
+        },
+        {
+          "field": "userName",
+          "title": "userName"
+        },
+        {
+          "field": "mobileNo",
+          "title": "mobileNo"
+        },
+        {
+          "field": "email",
+          "title": "email"
         }
       ],
       "gridButtons": [
@@ -76,7 +96,6 @@
       ],
       "queryConfig":{
         "queryName":"getUsers",
-        "columns":"id , firstName",
         "variables":{
           "queryInput":{
             "datatable":"users"
