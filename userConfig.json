@@ -73,7 +73,16 @@
           "class": "btn-sm btn-primary",
           "type": "add"
         }
-      ]
+      ],
+      "queryConfig":{
+        "queryName":"getUsers",
+        "columns":"id , firstName",
+        "variables":{
+          "queryInput":{
+            "datatable":"users"
+          }
+        }
+      }
     }
   ],
   "products": [
