@@ -3,10 +3,10 @@
     "formsConfig": [
       {
         "element_type": "textBox",
-        "label": "Name",
-        "name": "name",
+        "label": "lastName",
+        "name": "lastName",
         "class": "col-lg-4",
-        "placeholder": "Name",
+        "placeholder": "lastName",
         "type": "text",
         "minLength": 5,
         "maxLength": 20,
@@ -14,87 +14,64 @@
       },
       {
         "element_type": "textBox",
-        "label": "Address",
+        "label": "firstName",
+        "name": "firstName",
+        "class": "col-lg-4",
+        "placeholder": "firstName",
+        "type": "text",
+        "minLength": 5,
+        "maxLength": 20,
+        "required": true
+      },{
+        "element_type": "textBox",
+        "label": "address",
         "name": "address",
         "class": "col-lg-4",
-        "placeholder": "Address",
+        "placeholder": "address",
         "type": "text",
+        "minLength": 5,
+        "maxLength": 20,
         "required": true
-      },
-      {
-        "element_type": "radio",
-        "label": "Male",
-        "name": "gender",
-        "value": "male",
-        "class": "col-lg-1 form-check form-check-inline ms-3 mt-4",
-        "type": "radio",
-        "required": true
-      },
-      {
-        "element_type": "radio",
-        "label": "Female",
-        "name": "gender",
-        "value": "female",
-        "class": "col-lg-1 form-check form-check-inline mt-4",
-        "type": "radio",
-        "required": true
-      },
-      {
+      },{
         "element_type": "textBox",
-        "label": "City",
+        "label": "city",
         "name": "city",
         "class": "col-lg-4",
-        "placeholder": "City",
+        "placeholder": "city",
         "type": "text",
+        "minLength": 5,
+        "maxLength": 20,
         "required": true
-      },
-      {
+      },{
         "element_type": "textBox",
-        "label": "State",
-        "name": "state",
+        "label": "userName",
+        "name": "userName",
         "class": "col-lg-4",
-        "placeholder": "State",
+        "placeholder": "userName",
         "type": "text",
+        "minLength": 5,
+        "maxLength": 20,
         "required": true
-      },
-      {
+      },{
         "element_type": "textBox",
-        "label": "Country",
-        "name": "country",
-        "class": "col-lg-4",
-        "placeholder": "Country",
-        "type": "text",
-        "required": true
-      },
-      {
-        "element_type": "textBox",
-        "label": "Mobile No",
+        "label": "mobileNo",
         "name": "mobileNo",
         "class": "col-lg-4",
-        "placeholder": "Mobile No",
-        "type": "number",
+        "placeholder": "mobileNo",
+        "type": "text",
+        "minLength": 5,
+        "maxLength": 20,
         "required": true
-      },
-      {
-        "element_type": "select",
-        "label": "Favorite Game",
-        "name": "favorite_game",
+      },{
+        "element_type": "textBox",
+        "label": "email",
+        "name": "email",
         "class": "col-lg-4",
-        "options": [
-          "Cricket",
-          "Football",
-          "Hocky",
-          "Chess"
-        ],
+        "placeholder": "email",
+        "type": "text",
+        "minLength": 5,
+        "maxLength": 20,
         "required": true
-      },
-      {
-        "element_type": "checkbox",
-        "label": "Terms & Condition",
-        "name": "terms",
-        "class": "col-lg-4 d-flex align-items-center mt-3",
-        "type": "checkbox",
-        "requiredTrue": true
       }
     ],
     "queryConfig": {
