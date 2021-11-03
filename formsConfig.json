@@ -108,6 +108,28 @@
       }
     }
   },
+  "category": {
+    "formsConfig": [
+      {
+        "element_type": "textBox",
+        "label": "name",
+        "name": "name",
+        "class": "col-lg-4",
+        "placeholder": "name",
+        "type": "text",
+        "minLength": 5,
+        "maxLength": 20,
+        "required": true
+      }
+      
+    ],
+    "queryConfig": {
+      "queryName": "getDataById",
+      "variables": {
+          "datatable": "category"
+      }
+    }
+  },
   "bookings": [
     {
       "element_type": "textBox",
