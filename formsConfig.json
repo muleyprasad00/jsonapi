@@ -3,26 +3,16 @@
     "formsConfig": [
       {
         "element_type": "textBox",
-        "label": "lastName",
-        "name": "lastName",
+        "label": "name",
+        "name": "name",
         "class": "col-lg-4",
-        "placeholder": "lastName",
+        "placeholder": "name",
         "type": "text",
         "minLength": 5,
         "maxLength": 20,
         "required": true
       },
       {
-        "element_type": "textBox",
-        "label": "firstName",
-        "name": "firstName",
-        "class": "col-lg-4",
-        "placeholder": "firstName",
-        "type": "text",
-        "minLength": 5,
-        "maxLength": 20,
-        "required": true
-      },{
         "element_type": "textBox",
         "label": "address",
         "name": "address",
@@ -42,25 +32,16 @@
         "minLength": 5,
         "maxLength": 20,
         "required": true
-      },{
+      },
+      {
         "element_type": "textBox",
-        "label": "userName",
-        "name": "userName",
+        "label": "mobile",
+        "name": "mobile",
         "class": "col-lg-4",
-        "placeholder": "userName",
+        "placeholder": "mobile",
         "type": "text",
-        "minLength": 5,
-        "maxLength": 20,
-        "required": true
-      },{
-        "element_type": "textBox",
-        "label": "mobileNo",
-        "name": "mobileNo",
-        "class": "col-lg-4",
-        "placeholder": "mobileNo",
-        "type": "text",
-        "minLength": 5,
-        "maxLength": 20,
+        "minLength": 10,
+        "maxLength": 10,
         "required": true
       },{
         "element_type": "textBox",
@@ -70,7 +51,7 @@
         "placeholder": "email",
         "type": "text",
         "minLength": 5,
-        "maxLength": 20,
+        "maxLength": 50,
         "required": true
       }
     ],
