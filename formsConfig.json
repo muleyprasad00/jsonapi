@@ -62,30 +62,48 @@
       }
     }
   },
-  "products": [
-    {
-      "element_type": "textBox",
-      "label": "Title",
-      "name": "name",
-      "class": "col-lg-4",
-      "placeholder": "Title",
-      "type": "text",
-      "minLength": 5,
-      "maxLength": 20,
-      "required": true
-    },
-    {
-      "element_type": "textBox",
-      "label": "Price",
-      "name": "price",
-      "class": "col-lg-4",
-      "placeholder": "Price",
-      "type": "text",
-      "minLength": 5,
-      "maxLength": 20,
-      "required": true
+  "products": {
+    "formsConfig": [
+      {
+        "element_type": "textBox",
+        "label": "name",
+        "name": "name",
+        "class": "col-lg-4",
+        "placeholder": "name",
+        "type": "text",
+        "minLength": 5,
+        "maxLength": 20,
+        "required": true
+      },
+      {
+        "element_type": "textBox",
+        "label": "price",
+        "name": "price",
+        "class": "col-lg-4",
+        "placeholder": "price",
+        "type": "text",
+        "minLength": 5,
+        "maxLength": 20,
+        "required": true
+      },{
+        "element_type": "textBox",
+        "label": "category",
+        "name": "category",
+        "class": "col-lg-4",
+        "placeholder": "category",
+        "type": "text",
+        "minLength": 5,
+        "maxLength": 20,
+        "required": true
+      }
+    ],
+    "queryConfig": {
+      "queryName": "getDataById",
+      "variables": {
+          "datatable": "products"
+      }
     }
-  ],
+  },
   "bookings": [
     {
       "element_type": "textBox",
