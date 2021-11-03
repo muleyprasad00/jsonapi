@@ -91,7 +91,7 @@
           "title": "action",
           "type": "action",
           "buttonDetails": {
-            "btnText": "edit",
+            "btnText": "remove",
             "btnClass": "btn-outline-danger",
             "action": "delete"
           }
