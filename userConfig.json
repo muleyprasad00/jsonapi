@@ -99,9 +99,7 @@
       "queryConfig": {
         "queryName": "getData",
         "variables": {
-          "queryInput": {
-            "datatable": "users"
-          }
+          "datatable": "users"
         }
       }
     }
@@ -159,9 +157,7 @@
       "queryConfig": {
         "queryName": "getData",
         "variables": {
-          "queryInput": {
-            "datatable": "products"
-          }
+          "datatable": "products"
         }
       }
     }
