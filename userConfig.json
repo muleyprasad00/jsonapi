@@ -46,7 +46,6 @@
     },
     {
       "elementType": "grid",
-      "apiUrl": "/api/users",
       "height": "60vh",
       "title": "user-grid-title",
       "sizeColumnsToFit": false,
@@ -57,12 +56,8 @@
           "title": "id"
         },
         {
-          "field": "lastName",
-          "title": "lastName"
-        },
-        {
-          "field": "firstName",
-          "title": "firstName"
+          "field": "name",
+          "title": "name"
         },
         {
           "field": "address",
@@ -73,12 +68,8 @@
           "title": "city"
         },
         {
-          "field": "userName",
-          "title": "userName"
-        },
-        {
-          "field": "mobileNo",
-          "title": "mobileNo"
+          "field": "mobile",
+          "title": "mobile"
         },
         {
           "field": "email",
@@ -106,7 +97,7 @@
         }
       ],
       "queryConfig": {
-        "queryName": "getUsers",
+        "queryName": "getData",
         "variables": {
           "queryInput": {
             "datatable": "users"
@@ -125,7 +116,6 @@
     },
     {
       "elementType": "grid",
-      "apiUrl": "/api/products",
       "height": "60vh",
       "title": "products-grid-title",
       "columns": [
@@ -140,6 +130,10 @@
         {
           "field": "price",
           "title": "price"
+        },
+        {
+          "field": "category",
+          "title": "category"
         },
         {
           "field": "action",
@@ -161,7 +155,15 @@
           "class": "btn-sm btn-primary",
           "type": "add"
         }
-      ]
+      ],
+      "queryConfig": {
+        "queryName": "getData",
+        "variables": {
+          "queryInput": {
+            "datatable": "products"
+          }
+        }
+      }
     }
   ],
   "i18n": [
