@@ -58,9 +58,7 @@
     "queryConfig": {
       "queryName": "getUser",
       "variables": {
-        "queryInput": {
           "datatable": "users"
-        }
       }
     }
   },
