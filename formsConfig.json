@@ -56,7 +56,7 @@
       }
     ],
     "queryConfig": {
-      "queryName": "getUser",
+      "queryName": "getDataById",
       "variables": {
           "datatable": "users"
       }
