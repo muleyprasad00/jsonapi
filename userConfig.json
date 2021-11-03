@@ -79,6 +79,7 @@
           "field": "action",
           "title": "action",
           "type": "action",
+          "width":"75px",
           "buttonDetails": {
             "btnText": "edit",
             "btnClass": "btn-outline-primary",
@@ -90,6 +91,7 @@
           "field": "action",
           "title": "action",
           "type": "action",
+          "width":"75px",
           "buttonDetails": {
             "btnText": "remove",
             "btnClass": "btn-outline-danger",
