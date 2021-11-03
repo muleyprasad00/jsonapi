@@ -14,6 +14,11 @@
       "icon": "fas fa-tachometer-alt"
     },
     {
+      "title": "category",
+      "url": "/page/category",
+      "icon": "fas fa-box"
+    },
+    {
       "title": "products",
       "url": "/page/products",
       "icon": "fas fa-box"
@@ -170,6 +175,56 @@
         "queryName": "getData",
         "variables": {
           "datatable": "products"
+        }
+      }
+    }
+  ],
+  "category": [
+    {
+      "elementType": "breadcrumb",
+      "breadcrumbList": [
+        "Home",
+        "category"
+      ]
+    },
+    {
+      "elementType": "grid",
+      "height": "60vh",
+      "title": "products-grid-title",
+      "columns": [
+        {
+          "field": "id",
+          "title": "id"
+        },
+        {
+          "field": "name",
+          "title": "name"
+        },
+        {
+          "field": "action",
+          "title": "action",
+          "type": "action",
+          "buttonDetails": {
+            "btnText": "edit",
+            "btnClass": "btn-outline-primary",
+            "action": "navigate",
+            "url": "add-edit"
+          }
+        }
+      ],
+      "gridButtons": [
+        {
+          "title": "Add Product",
+          "action": "navigate",
+          "url": "add-edit",
+          "class": "btn-sm btn-primary",
+          "type": "add"
+        }
+      ],
+      "queryConfig": {
+        "queryName": "getData",
+        "variables": {
+          "datatable": "category"
         }
       }
     }
