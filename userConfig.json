@@ -48,7 +48,7 @@
       "elementType": "grid",
       "height": "60vh",
       "title": "user-grid-title",
-      "sizeColumnsToFit": false,
+      "sizeColumnsToFit": true,
       "autoSizeCol": false,
       "columns": [
         {
@@ -79,7 +79,7 @@
           "field": "action",
           "title": "action",
           "type": "action",
-          "width":"75px",
+          "width":"100px",
           "buttonDetails": {
             "btnText": "edit",
             "btnClass": "btn-outline-primary",
@@ -91,7 +91,7 @@
           "field": "action",
           "title": "action",
           "type": "action",
-          "width":"75px",
+          "width":"100px",
           "buttonDetails": {
             "btnText": "remove",
             "btnClass": "btn-outline-danger",
