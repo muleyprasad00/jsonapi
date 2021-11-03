@@ -85,6 +85,16 @@
             "action": "navigate",
             "url": "add-edit"
           }
+        },
+        {
+          "field": "action",
+          "title": "action",
+          "type": "action",
+          "buttonDetails": {
+            "btnText": "edit",
+            "btnClass": "btn-outline-danger",
+            "action": "delete"
+          }
         }
       ],
       "gridButtons": [
